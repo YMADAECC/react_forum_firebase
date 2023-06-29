@@ -1,0 +1,36 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@layer components {
+
+	.bg-window {
+		background-color: #6D9FFF;
+	}
+
+	.bg-card {
+		background-color: #92b8ff;
+	}
+
+	.width-600 {
+		width: 600px;
+	}
+
+	.width-700 {
+		width: 700px;
+	}
+
+	.width-800 {
+		width: 800px;
+	}
+	
+	.min-height-500 {
+		min-height: 500px
+	}
+
+	.max-height-screen-90 {
+		max-height: 90vh;
+}
+}
