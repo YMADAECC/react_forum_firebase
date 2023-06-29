@@ -1,10 +1,20 @@
-import React from 'react';
-import TodoInput from './components/TodoInput';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Header from "./components/Header";
+import Main from "./components/Main";
+import "./style.css";
 
 function App() {
   return (
-        
-        <TodoInput />
+    <Router>
+      <div className="App">
+        <Header />
+        <Switch>
+          <Route exact path="/">
+            <Main />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
